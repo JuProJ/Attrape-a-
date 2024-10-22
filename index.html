@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attrape ça !</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.0.0/remixicon.min.css" rel="stylesheet"> <!-- Lien mis à jour -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <style>
+        /* CSS pour enlever le soulignement des liens */
+        .social-icons a {
+            text-decoration: none; /* Enlève le soulignement */
+            color: inherit; /* Prend la couleur du texte environnant */
+        }
+
+        .social-icons a:hover {
+            color: #7D4FFE; /* Change la couleur au survol, tu peux ajuster */
+        }
+    </style>
+</head>    
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+    </header>
+
+    <div class="game">
+        <button id="escapeButton">Attrape moi !</button>
+    </div>
+
+    <footer>
+        <div class="feedback">
+            <span>Cela vous a-t-il amusé ?</span>
+        </div>
+
+        <div class="yes-no-buttons">
+            <button id="yesButton">Oui</button>
+            <button id="noButton">Non</button>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
+                <i class="ri-discord-fill"></i>
+            </a>
+            <a href="https://www.youtube.com/@Attrape_ça" target="_blank" 
+            rel="noopener noreferrer">
+                <i class="ri-youtube-fill"></i>
+            </a>
+            <a href="patreon.com/Ynsk" target="_blank" rel="noopener noreferrer">
+                <i class="ri-hand-heart-fill"></i>
+            </a>
+        </div>
+
+        <div class="copyright">
+            &copy; 2024 - Tous droits réservés. Made with ❤️ by Ynsk
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
